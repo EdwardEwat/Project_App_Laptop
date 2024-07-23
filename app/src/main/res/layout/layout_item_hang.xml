@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_back_layout_product"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgLogoHang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/hinhdellg15_4050" />
+
+    <TextView
+        android:id="@+id/tvTenHang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên "
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+</LinearLayout>

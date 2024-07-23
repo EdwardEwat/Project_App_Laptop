@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#272727</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#E76160</color>
+    <color name="grey">#ababab</color>
+    <color name="lavender">#8692f7</color>
+    <color name="green">#50C878</color>
+    <color name="dialogsuccess">#4C4C4C</color>
+    <color name="primary">#01AED8</color>
+    <color name="gray">#808080</color>
+</resources>

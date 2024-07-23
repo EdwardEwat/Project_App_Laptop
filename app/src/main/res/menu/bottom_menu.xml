@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnQuanLy"
+        android:icon="@drawable/ic_shop"
+        android:title="Quản lý" />
+    <item
+        android:id="@+id/mnHuongDan"
+        android:icon="@drawable/ic_order"
+        android:title="Hướng dẫn" />
+    <item
+        android:id="@+id/mnTaiKhoan"
+        android:icon="@drawable/ic_account"
+        android:title="Tài khoản" />
+</menu>

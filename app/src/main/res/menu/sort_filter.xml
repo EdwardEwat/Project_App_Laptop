@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/iDefault"
+            android:title="Mặc định"
+            android:checked="true"/>
+        <item
+            android:id="@+id/ibanChay"
+            android:title="Bán chạy" />
+        <item
+            android:id="@+id/idesc"
+            android:title="Giá cao đến thấp" />
+        <item
+            android:id="@+id/iasc"
+            android:title="Giá thấp đến cao" />
+    </group>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:gravity="center"
+    tools:context=".User.Fragments.frmCart_main">
+    <CheckBox
+        android:id="@+id/chkSelect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        style="@style/textStyle"
+        android:text="Chọn tất cả " />
+
+    <TextView
+        android:id="@+id/tvDelete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        style="@style/textStyle"
+        android:text="Xóa" />
+
+    <TextView
+        android:id="@+id/tvTongSP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="Tổng (0 Sản phẩm)"
+        style="@style/textStyle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDatHang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/red_button_background"
+        android:text="Đặt Hàng" />
+</LinearLayout>

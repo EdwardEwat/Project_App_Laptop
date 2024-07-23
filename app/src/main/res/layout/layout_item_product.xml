@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_back_layout_product"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgHinhSP"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/hinhdellg15_4050" />
+
+    <TextView
+        android:id="@+id/tvTenSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgHinhSP"
+        android:layout_alignParentTop="true"
+        android:text="Tên "
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvGiaBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTenSP"
+        android:layout_toEndOf="@id/imgHinhSP"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:text="Giá" />
+
+    <TextView
+        android:id="@+id/tvMoTa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGiaBan"
+        android:layout_toEndOf="@id/imgHinhSP"
+        android:text="Mô tả" />
+</RelativeLayout>

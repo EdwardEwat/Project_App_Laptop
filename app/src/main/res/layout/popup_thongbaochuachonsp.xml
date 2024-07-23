@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvThongBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:textSize="18dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/red_button_background"
+        android:text="OK"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+</LinearLayout>
